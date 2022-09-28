@@ -1,0 +1,360 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden ;
+    background-color:rgb(94, 94, 221);
+}
+#home-page{
+    background: linear-gradient(90deg,rgb(166, 65, 181),rgb(205, 129, 141));
+}
+/* styling navbar11 */
+.navbar1{
+    text-align: center;
+    background-color:#140342;
+    padding: 1px;
+}
+.navbar1 ul li{
+    display: inline-block;
+    list-style: none;
+    margin:15px 65px 40px 10px;
+    border: none;
+}
+.navbar1 ul a{
+    position: absolute;
+    color: #ccc;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+}
+.fa-setcart{
+position: relative;
+left: 200px;
+bottom: 10px;
+color: #fff;
+margin: 0 10px;
+font-size: 1.4rem;
+padding: 5px;
+}
+.fa-setcart:hover{
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 3px;
+    color: #6440fb;
+    border-radius: 50%;
+}
+
+.navbar1 ul a:hover{
+    background-color: rgba(75, 76, 82, 0.265);
+    padding: 12px;
+    border-radius: 3px;
+}
+#main-icon{
+    position: relative;
+    right: 20%;
+}
+.course-feature{
+    color: #fff;
+    margin-top:300px;
+    
+}
+.course-feature h1{
+    padding:70px 140px 10px 10px;
+    text-align: left;
+    font-size: 2.8rem;
+}
+#get-started{
+background-color: darkblue;
+border: none;
+border-radius: 20px;
+padding: 10px 30px;
+color: white;
+margin: 0 10px;
+float: left;
+}
+/* WHY AIST */
+#testimonials{
+    padding: 3% 7% 5%;
+    text-align: center;
+}
+.whyaist-img img{
+ /* height: 100px; */
+ padding:50px 100px 20px;
+ /* background-color: yellow; */
+ 
+}
+/* recognized by */
+.recognized-by{
+    padding: 13% 5% 3%;
+}
+.recognized-by img{
+    margin-top: 70px;
+    height: 60px;
+}
+#courses{
+    padding-top:40px ;
+    background-color: #eef2f6;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+#courses h1{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.courses-img{
+    height: 250px;
+    width: 400px;
+ border-top-left-radius: 20px ;
+ border-top-right-radius: 20px;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    outline: black;
+background-color: grey;
+border-radius: 99%;
+}
+.teacher-info{
+    background-color: #fff;
+    width: 400px;
+    /* display: inline-block; */
+    margin-left:475px;
+}
+.author{
+    margin-top: -13px;
+    background-color: #fff;
+    border-top: 1px solid grey;
+    width: 400px;
+    margin-left:475px;
+    padding-top: 10px;
+    display: flex;
+}
+.author h6{
+    margin-right: 90px;
+}
+.author p{
+    margin-right: 10px;
+}
+.author button{
+    background-color: #34a853;
+    border: none;
+    border-radius: 50px;
+    height: 25px;
+    width: 59px;
+    /* margin-top: 2px; */
+}
+.auth-img{
+width: 10%;
+margin-top: -10px;
+}
+#btn-all{
+    font-size: 1.1rem;
+    background-color:#6440fb;
+    color: white;
+    margin-top: 40px;
+}
+
+/* what you will learn */
+#wywl{
+    padding: 5% 8%;
+}
+#wywl h1{
+text-align: center;
+line-height: 3;
+}
+.parent-card{
+    margin-left: 800px;
+    text-align: center;
+    
+}
+.info-card{
+    /* border: 1px solid wheat; */
+    height: 150px;
+    margin-right: 48px;
+    text-align: center;
+}
+#line{
+    border: 6px solid rgb(206, 205, 204);
+    width: 100px;
+    border-style:dotted;
+    border-top: none;
+    text-align:center;
+    margin-left: 45%;
+}
+#line:hover{
+    cursor: pointer;
+}
+
+/* review */
+#review{
+    background-color: #140342;
+    padding: 10% 10% 8%;
+    color: white;
+    /* border-bottom-right-radius:40% ; */
+    border-end-end-radius:35% ;
+}
+#review-heading{
+    margin-bottom: 60px;
+}
+.card-info{
+    width: 400px;
+    height: 300px;
+    margin-left: 120px;
+    color: black;
+    padding: 10px;
+}
+.card1{
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    background-color:#fff ;
+    
+}
+.numbers{
+  text-align: center;
+    padding: 40px;
+}
+.parent-number{
+    margin-top: 100px;
+}
+
+.numbers h1{
+color: #00ff84;
+}
+.numbers h6{
+    position:relative;
+    right: 30px;
+    margin-top: 10px;
+    float: right;
+}
+/* Upcoming events */
+#upcoming-events{
+    padding: 5% 2% 3%;
+    background-color: #EEF2F6;
+}
+.evt-title{
+    margin-bottom: 70px;
+}
+#upcoming-events .card{
+margin: 10px;
+}
+.btn-ticket{
+    background-color: #6440fb;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+#btn-evt{
+    padding: 8px 15px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #6440fb ;
+    border-radius: 8px;
+    color: #6440fb;
+    margin:70px 0px;
+}
+#btn-evt:hover{
+    background-color: #6440fb;
+    color: white;
+}
+/* about us social */
+.social-icon{
+    width:3%;
+}
+.social-1{
+    padding: 20px 4px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid grey;
+}
+.social-media{
+    margin: 0 20px;
+}
+#about-us{
+    background-color: #140342;
+    padding: 4% 5%;
+    color: white;
+}
+#about-us ul{
+    list-style: none;
+    margin-left: -30px;
+}
+#about-us a{
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+    font-weight: bolder;
+}
+#about-us h5{
+    margin-bottom: 30px;
+}
+
+#jwu-btn{
+    width: 50%;
+    border: 2px solid #6440fb;
+    background: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+#jwu-btn:hover{
+    background-color: #6440fb;
+    color: #00ff84;
+    font-weight: bolder;
+}
+.jut h5,h6{
+    /* padding:0 130px; */
+    line-height: 2;
+}
+.jut h6{
+    line-height: 1.7;
+    padding: 0 260px;
+    margin-left: -260px;
+}
+
+.newsletter input{
+border-radius:20px;
+padding: 9px;
+border: none;
+}
+#newletter-text{
+    font-weight: bolder;
+}
+.newsletter button{
+    border:none;
+    position:relative;
+    left: 120px;
+    bottom: 32px;
+    background-color: #6440fb;
+    border-radius: 20px;
+    color: white;
+
+}
+.social-2{
+    border-bottom: 1px solid grey;
+    /* padding-bottom: 10px; */
+}
+/* bottom */
+.bottom {
+    display: flex;
+    flex-direction: row;
+margin: 25px 10px 0 70px;
+
+}
+.bottom a{
+    color: blue;
+    margin-left:170px;
+}
+#inst-name{
+position: relative;
+left: -4px;
+}
+#privacy-p{
+    position: relative;
+    right: 165px;
+}
+#copyright{
+    margin-top:8px;
+}
